@@ -1,12 +1,12 @@
-# JWT
-Simple JWT Tokens 
+# JWT Simple JWT Tokens
+ 
 This is a simple JWT token setup with .net core with empty project
 
 1.Open the project and run it.
 2.Stop project
-3. go to appsettings.json and change your Issuer to your localhost(i.e "http://localhost:62158")
+3.go to appsettings.json and change your Issuer to your localhost(i.e "http://localhost:62158")
 
-
+How to Run?
 #region 1
 Now run the project again and nevigate to api/token and 
 Get the value after token:
@@ -17,8 +17,11 @@ Now get to api/books
    you will get all the data 
 #end region
 
+Try Debugging/Testing
 -now repeat the process #1 again but change the birth year to 2009 before that
 and you will notice the data is different for difference user with different age
+
+Information/Help
 
 JWT tokens is a good way to secure your server depending on your skills you can twick things to use it for your purpose.
 this example is based on 
