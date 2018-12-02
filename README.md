@@ -8,8 +8,8 @@ This is a simple JWT token setup with .net core with empty project
 
 How to Run?
 #region 1
-Now run the project again and nevigate to api/token and 
-Get the value after token:
+Now run the project again and navigate to api/token 
+an Get the value after token:
 open POSTMAN
 Now get to api/books
 - observe you wont be able to access it
